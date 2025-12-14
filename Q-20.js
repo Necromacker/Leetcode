@@ -52,16 +52,16 @@ var isValid = function (s) {
         }
       }
     }
-    // if (b1 !== c1 || b2 !== c2 || b3 !== c3) {
-    //   output = false;
-    //   console.log(b1, c1);
-    // }
-
-    if (s[0] === "[" && s[s.length - 1] !== "]") {
-      if (b1 <= 1) {
-        output = false;
-      }
+    if (b1 !== c1 || b2 !== c2 || b3 !== c3) {
+      output = false;
+      console.log(b1, c1);
     }
+
+    // if (s[0] === "[" && s[s.length - 1] !== "]") {
+    //   if (b1 <= 1) {
+    //     output = false;
+    //   }
+    // }
   }
   opening_bracket();
   return output;
