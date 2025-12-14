@@ -66,14 +66,3 @@ var isValid = function (s) {
   opening_bracket();
   return output;
 };
-
-
-if (s[i] === "(" || s[i] === "[" || s[i] === "{") {
-        current_bracket = s[i];
-
-        if (current_bracket === "(") {
-          if (s[i + 1] === "]" || s[i + 1] === "}" || s[i + 1] === undefined) {
-            output = false;
-          }
-          b1++;
-        }
