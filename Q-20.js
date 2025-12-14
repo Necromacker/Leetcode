@@ -5,12 +5,12 @@
 
 // Done Without Using Stack
 
-// var isValid = function (s) {
-//   let b1, b2, b3, c1, c2, c3;
-//   b1 = b2 = b3 = c1 = c2 = c3 = 0;
-//   let current_bracket = s[0];
-//   let output = true;
-//   function opening_bracket() {
+var isValid = function (s) {
+  let b1, b2, b3, c1, c2, c3;
+  b1 = b2 = b3 = c1 = c2 = c3 = 0;
+  let current_bracket = s[0];
+  let output = true;
+  function opening_bracket() {
     if (
       current_bracket === ")" ||
       current_bracket === "]" ||
