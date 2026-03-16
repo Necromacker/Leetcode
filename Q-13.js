@@ -2,7 +2,6 @@
  * @param {string} s
  * @return {number}
  */
-//
 var romanToInt = function (s) {
   let Total = 0;
   let Arr = [];
